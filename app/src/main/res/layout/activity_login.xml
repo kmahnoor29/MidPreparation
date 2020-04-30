@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Login Page"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        android:text="Username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="300dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:id="@+id/username"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginLeft="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginLeft="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="300dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Login"
+        android:textColor="#fff"
+        />
+
+</RelativeLayout>
